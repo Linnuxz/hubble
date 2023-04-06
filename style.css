@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body {
+  background-image: url(huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(257, 40%, 49%);
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  width: 120px;
+  margin-top: 38.2px;
+  margin-left: 40px;
+}
+.pic {
+  width: 78%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+.heading {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  line-height: 36px;
+  width: 74%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+}
+.text {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+  width: 81%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.reg {
+  width: 53%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 64px;
+  border: none;
+  color: #684bb1;
+  border-radius: 20px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+.little-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  width: 27px;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(259deg)
+    brightness(101%) contrast(107%);
+  margin-right: 10px;
+}
